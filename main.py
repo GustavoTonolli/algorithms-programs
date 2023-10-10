@@ -4,7 +4,7 @@
 
 # media = ((nota1 * 2) + (nota2 * 3) + (nota3 * 5)) / 10
 
-# print(f'A média é do aluno é: {media}')
+# print(f'A média do aluno é: {media}')
 
 # base = int(input('Base: '))
 # expoente = int(input('Expoente: '))
@@ -110,10 +110,21 @@
 #         print(f'Valor com 10% de desconto: R$ {valor - (valor * 0.1)}')
 #     case _:
 #         print('Código Inválido!')
+# ENQUANTO VERDADEIRO FAÇA
+# Executa de 0 à N;
 i = 0
-num = int(input('Escreva um numero: '))
-while i < 10:
-    i += 1
-    print(f'{num} x {i} = {num*i}')
+num = 1
+r = 0
+
+
+while num <= 10:
+    i = 1
+    print(f'Tabuada de: {num}')
+    while i <= 10:
+        print(f'{i} x {num} = {num * i}')
+        i += 1
+    num += 1
+    
+    
     
 
