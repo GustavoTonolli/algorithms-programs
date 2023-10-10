@@ -112,18 +112,18 @@
 #         print('Código Inválido!')
 # ENQUANTO VERDADEIRO FAÇA
 # Executa de 0 à N;
-i = 0
-num = 1
-r = 0
+# i = 0
+# num = 1
+# r = 0
 
-while num <= 10:
-    i = 1
-    print(f'Tabuada de: {num}')
-    while i <= 10:
-        print(f'{i} x {num} = {num * i}')
-        i += 1
-    num += 1
-    
+# while num <= 10:
+#     i = 1
+#     print(f'Tabuada de: {num}')
+#     while i <= 10:
+#         print(f'{i} x {num} = {num * i}')
+#         i += 1
+#     num += 1
+     
     
     
 
